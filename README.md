@@ -26,12 +26,58 @@ This repository contains a comprehensive research proposal for a PhD program foc
 7. Validate across diverse network scenarios (5G/6G, IoT, SDN)
 
 ### Repository Structure
-Files will be added to organize:
-- Complete research proposal document
-- Methodology and architecture details
-- Timeline and milestones
-- Literature review and references
-- Resource requirements
+
+```
+├── proposal/                    # Core proposal documents
+│   ├── full_proposal.md        # Complete 13-section PhD proposal
+│   ├── executive_summary.md    # 2-3 page concise summary
+│   ├── literature_review.md    # Comprehensive review (91+ citations)
+│   └── references.bib          # BibTeX references (50+ sources)
+│
+├── methodology/                 # Technical methodology
+│   ├── architecture.md         # Multi-layer system architecture
+│   ├── algorithms.md           # AI/ML algorithms with pseudocode
+│   ├── datasets.md             # Dataset specifications
+│   └── evaluation_metrics.md   # Comprehensive metrics
+│
+├── timeline/                    # Project planning
+│   ├── gantt_chart.md          # 4-year quarterly breakdown
+│   └── milestones.md           # 21 key milestones
+│
+├── resources/                   # Resource planning
+│   ├── tools_and_frameworks.md # Complete technology stack
+│   ├── budget.md               # $53K budget breakdown
+│   └── collaboration.md        # Partnership opportunities
+│
+├── pdf/                         # 📄 PDF versions of all documents
+│   ├── Full_PhD_Proposal.pdf
+│   ├── Executive_Summary.pdf
+│   ├── Literature_Review.pdf
+│   ├── System_Architecture.pdf
+│   ├── AI_ML_Algorithms.pdf
+│   ├── Datasets.pdf
+│   ├── Evaluation_Metrics.pdf
+│   ├── 4_Year_Timeline.pdf
+│   ├── Milestones.pdf
+│   ├── Tools_and_Frameworks.pdf
+│   ├── Budget.pdf
+│   ├── Collaboration_Opportunities.pdf
+│   └── Complete_PhD_Proposal_All_Documents.pdf  # 📚 All docs combined
+│
+├── convert_to_pdf.sh           # Script to regenerate PDFs
+└── LICENSE                      # MIT License
+```
+
+### 📄 PDF Documents
+
+All markdown documents have been converted to professional PDF format for easy reading and submission. The PDFs include:
+
+- **Individual PDFs**: Each document as a separate PDF with table of contents and section numbering
+- **Combined PDF**: All documents merged into a single comprehensive PDF (484KB, 200+ pages)
+
+**Download PDFs**: Browse the [`pdf/`](./pdf/) directory for all PDF versions.
+
+**Regenerate PDFs**: Run `./convert_to_pdf.sh` to convert markdown files to PDF using Pandoc and XeLaTeX.
 
 ### Contact
 - GitHub: @idriss5214
